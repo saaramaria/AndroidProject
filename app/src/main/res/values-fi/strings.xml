@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Super Upea Avaruuspeli</string>
+
+    <string name="play_text">Pelaa!</string>
+
+    <string name="time_text">AIKA:</string>
+    <string name="score_text">PISTEET:</string>
+    <string name="best_text">ENNÄTYS:</string>
+
+    <string name="dialog_title">Super Upea Avaruuspeli</string>
+    <string name="dialog_start">Sinulla on 20 sekuntia aikaa pelastaa niin monta apinaa kuin voit. Kosketa alinta apinaa pelastaaksesi sen. Häviät, jos et osu apinaan! \n\nPaina PELAA! aloittaaksesi pelin.</string>
+    <string name="dialog_button">OK</string>
+
+    <string name="gameover_text">Peli päättyi!</string>
+    <string name="failed_text">Hävisit pelin!</string>
+    <string name="highscore_text">Uusi ennätys!</string>
+</resources>

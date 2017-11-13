@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#22ffffff"
+    android:background="@drawable/dialog"
+    android:padding="20dp"
+    tools:context="fi.jamk.androidproject.MainActivity">
+
+    <!-- Custom dialog that appears when the app opens (title, instructions, OK-button) -->
+
+    <TextView
+        android:id="@+id/messageTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="@string/dialog_title" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/messageTitle"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:text="@string/dialog_start" />
+
+    <Button
+        android:id="@+id/b_dialog"
+        android:background="@drawable/button"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/message"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:text="@string/dialog_button" />
+
+</RelativeLayout>

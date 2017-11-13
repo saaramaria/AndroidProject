@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="fi.jamk.androidproject.MainActivity">
+
+    <!-- Include top_bar.xml with the timer and scores -->
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        layout="@layout/top_bar"/>
+
+    <!-- Include grid.xml with the "grid" for the monkeys (5 rows, 3 columns) -->
+    <include
+        android:id="@+id/include2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/include3"
+        android:layout_below="@+id/include1"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        layout="@layout/grid"/>
+
+    <!-- Include bottom_bar.xml with the Play-button -->
+    <include
+        android:id="@+id/include3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        layout="@layout/bottom_bar"/>
+</RelativeLayout>

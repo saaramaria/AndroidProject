@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Super Awesome Space Game</string>
+
+    <string name="play_text">Play!</string>
+
+    <string name="time_text">TIME:</string>
+    <string name="score_text">SCORE:</string>
+    <string name="best_text">BEST:</string>
+
+    <string name="dialog_title">Super Awesome Space Game</string>
+    <string name="dialog_start">You have 20 seconds to save as many space monkeys as you can. Tap the monkey in the bottom line to save it. You lose if you miss! \n\nPress PLAY! to start the game.</string>
+    <string name="dialog_button">OK</string>
+
+    <string name="gameover_text">Game over!</string>
+    <string name="failed_text">You failed!</string>
+    <string name="highscore_text">New highscore!</string>
+</resources>
